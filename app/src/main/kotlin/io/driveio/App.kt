@@ -1,7 +1,5 @@
 package io.driveio
 
-import kotlin.math.max
-
 data class SpeedSample(
     val timestampMillis: Long,
     val speedMetersPerSecond: Double,
